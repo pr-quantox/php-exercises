@@ -6,7 +6,7 @@ https://github.com/nebojsac/prakticno-programiranje
 
 ## Zadaci
 
-[Nizovi](zadaci/array.md)
+[Nizovi](zadaci/arrays.md)
 
 
 
