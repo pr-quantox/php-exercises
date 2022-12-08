@@ -63,7 +63,7 @@ $ceu = [
 ```
 Napravite PHP skriptu koja prikazuje glavni grad i naziv zemlje iz gornjeg niza $ceu.
 
-`Primjer`:
+*Primjer*:
 
 The capital of Netherlands is Amsterdam\
 The capital of Greece is Athens\
