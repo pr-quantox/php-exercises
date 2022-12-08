@@ -1,2 +1,12 @@
-# php-exercises
-PHP zadaci za vjezbu
+# PHP zadaci za vjezbu
+
+## Linkovi
+
+https://github.com/nebojsac/prakticno-programiranje
+
+## Zadaci
+
+[Nizovi](zadaci/array.md)
+
+
+
