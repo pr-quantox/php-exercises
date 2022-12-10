@@ -113,7 +113,7 @@ $x = [
 ];
 ```
 
-Odstampaj sve kljuceve (indekse) niza $x. *pomoc: koristi funkciju array_keys()*
+Odstampaj sve kljuceve (indekse) niza $x. *pomoc: koristi funkciju [array_keys()](https://www.php.net/manual/en/function.array_keys.php)*
 
 ## Zadatak 7.
 
@@ -121,7 +121,7 @@ Odstampaj sve kljuceve (indekse) niza $x. *pomoc: koristi funkciju array_keys()*
 $brojevi = "1,2,3,4,5";
 ```
 
-String $brojevi konvertuj u niz [1,2,3,4,5]. *pomoc: koristi funkciju explode()*
+String $brojevi konvertuj u niz [1,2,3,4,5]. *pomoc: koristi funkciju [explode()](https://www.php.net/manual/en/function.explode.php)*
 
 ## Zadatak 8.
 
@@ -129,4 +129,4 @@ String $brojevi konvertuj u niz [1,2,3,4,5]. *pomoc: koristi funkciju explode()*
 $brojevi = [1,2,3,4,5];
 ```
 
-Niz $brojevi konvertuj u string `"1-2-3-4-5"` . *pomoc: koristi funkciju implode()*
+Niz $brojevi konvertuj u string `"1-2-3-4-5"` . *pomoc: koristi funkciju [implode()](https://www.php.net/manual/en/function.implode.php)*
