@@ -113,7 +113,7 @@ $x = [
 ];
 ```
 
-Odstampaj sve kljuceve (indekse) niza $x. *pomoc: koristi funkciju [array_keys()](https://www.php.net/manual/en/function.array_keys.php)*
+Odstampaj sve kljuceve (indekse) niza $x. *pomoc: koristi funkciju [array_keys()](https://www.php.net/manual/en/function.array-keys.php)*
 
 ## Zadatak 7.
 
