@@ -1,5 +1,7 @@
 # Nizovi u PHP-u
 
+[Sve ugradjene PHP funkcije za rad sa nizovima](https://www.php.net/manual/en/ref.array.php)
+
 ## Linkovi
 
 [Osnove nizova](https://github.com/nebojsac/prakticno-programiranje/blob/master/poglavlja/osnove-nizova.md)
@@ -28,7 +30,7 @@ $colors = array('white', 'green', 'red');
 
 Napišite PHP skriptu koja će prikazati boje na sljedeći način:
 
-white, green, red
+white, red, green
 
 ## Zadatak 3.
 
@@ -69,3 +71,62 @@ The capital of Netherlands is Amsterdam\
 The capital of Greece is Athens\
 The capital of Germany is Berlin
 
+## Zadatak 4.
+
+```php
+$x = array(1, 2, 3, 4, 5);
+```
+
+Izbriši treci element iz niza i odstampaj niz. *pomoc: koristi se funkcija: unset()*
+
+Nakon brisanja elementa, noramalizuj ključeve (moraju biti sukcesivni tj. 0,1,2,3...) i odstampaj niz. *koristi se funkcija: array_values()*
+
+
+## Zadatak 5.
+
+```php
+$color = array(4 => 'white', 6 => 'green', 11 => 'red');
+```
+
+5.1 Odstampaj prvi element niza.
+
+5.2 Isto uradi koristeci funkciju *[current()](https://www.php.net/manual/en/function.current.php)*
+
+> Svaki niz ima interni pokazivač na "trenutni" element, koji se inicijalizuje na prvi element niza.
+> Funkcija current() jednostavno vraća vrijednost elementa niza na koji trenutno ukazuje interni pokazivač. Ne pomjera pokazivač ni na koji način. Ako interni pokazivač pokazuje izvan kraja liste elemenata ili je niz prazan, current() vraća *false*.
+
+5.3 Isto uradi koristeci funkciju *[reset()](https://www.php.net/manual/en/function.reset.php)*
+
+> Funkcija *reset()* vraca unutrašnji pokazivač niza na prvi element i vraća njegovu vrijednost.
+
+5.4 Odstampaj posljednji element niza, koristi funkciju *[end()](https://www.php.net/manual/en/function.end.php)*
+
+> Funkcija *end()* postavlja unutrašnji pokazivač niza na posljednji element i vraća njegovu vrijednost.
+
+## Zadatak 6.
+
+```php
+$x = [
+    'ja' => 'ne',
+    'sam' => 'znam',
+    'konj' => 'nista',
+];
+```
+
+Odstampaj sve kljuceve (indekse) niza $x. *pomoc: koristi funkciju array_keys()*
+
+## Zadatak 7.
+
+```php
+$brojevi = "1,2,3,4,5";
+```
+
+String $brojevi konvertuj u niz [1,2,3,4,5]. *pomoc: koristi funkciju explode()*
+
+## Zadatak 8.
+
+```php
+$brojevi = [1,2,3,4,5];
+```
+
+Niz $brojevi konvertuj u string `"1-2-3-4-5"` . *pomoc: koristi funkciju implode()*
