@@ -130,3 +130,11 @@ $brojevi = [1,2,3,4,5];
 ```
 
 Niz $brojevi konvertuj u string `"1-2-3-4-5"` . *pomoc: koristi funkciju [implode()](https://www.php.net/manual/en/function.implode.php)*
+
+## Zadatak 9.
+
+```php
+$gradovi = "rim,berlin,istambul,madrid";
+```
+
+String $gradovi konvertuj u string sa sadrzajem `'Rim, Berlin, Istambul, Madrid'`. *pomoc: koristi funkcije [explode(), ucfirst() i implode()](https://www.php.net/manual/en/function.ucfirst.php)*
